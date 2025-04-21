@@ -16,19 +16,20 @@ with engine.connect() as connection:
     df = pd.read_sql(text('SELECT * FROM trends'), connection)
 
 
-selected_keyword = st.selectbox("Choose a trend:", df.columns[1:-1])
+selected_trend = st.selectbox("Choose a trend:", df['variable'].unique())
 df['date'] = pd.to_datetime(df['date'])
-trend_data = df.set_index('date')[selected_keyword]
+trend_data = df[df['variable'] == selected_trend]
+trend_data = trend_data.set_index('date').drop(['variable'], axis = 1)
 st.line_chart(trend_data)
 
-max_value = trend_data.max()
-max_date = trend_data.idxmax().strftime('%Y-%m-%d')
-min_value = trend_data.min()
-min_date = trend_data.idxmin().strftime('%Y-%m-%d')
-avg_value = trend_data.mean()
+max_value = trend_data['popularity'].max()
+max_date = trend_data['popularity'].idxmax().strftime('%Y-%m-%d')
+min_value = trend_data['popularity'].min()
+min_date = trend_data['popularity'].idxmin().strftime('%Y-%m-%d')
+avg_value = trend_data['popularity'].mean()
 
 if len(trend_data) > 30:
-    growth = (trend_data.iloc[-1] - trend_data.iloc[-31]) / trend_data.iloc[-31] * 100
+    growth = (trend_data['popularity'].iloc[-1] - trend_data['popularity'].iloc[-31]) / trend_data['popularity'].iloc[-31] * 100
 
 else:
     growth = None
