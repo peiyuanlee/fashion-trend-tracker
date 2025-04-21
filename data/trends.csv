@@ -1,92 +1,1311 @@
-date,balletcore,grunge,gorpcore,y2k,avant-garde,isPartial
-2025-01-17,0,18,2,48,1,False
-2025-01-18,0,20,2,54,2,False
-2025-01-19,0,18,1,56,2,False
-2025-01-20,0,17,1,46,1,False
-2025-01-21,0,15,1,43,2,False
-2025-01-22,0,16,2,47,2,False
-2025-01-23,0,17,2,47,2,False
-2025-01-24,0,19,1,47,1,False
-2025-01-25,0,18,2,53,2,False
-2025-01-26,0,19,1,55,1,False
-2025-01-27,0,19,1,48,1,False
-2025-01-28,0,18,1,45,1,False
-2025-01-29,0,18,1,49,1,False
-2025-01-30,0,17,1,47,1,False
-2025-01-31,0,20,2,52,1,False
-2025-02-01,0,21,1,51,1,False
-2025-02-02,0,21,1,52,1,False
-2025-02-03,0,16,1,45,2,False
-2025-02-04,0,18,1,41,1,False
-2025-02-05,0,18,1,43,2,False
-2025-02-06,0,18,1,46,1,False
-2025-02-07,0,19,1,49,2,False
-2025-02-08,0,22,1,54,1,False
-2025-02-09,0,20,1,53,1,False
-2025-02-10,0,18,1,43,2,False
-2025-02-11,0,16,1,41,2,False
-2025-02-12,0,17,1,43,2,False
-2025-02-13,0,17,1,41,2,False
-2025-02-14,0,19,1,42,1,False
-2025-02-15,1,18,1,48,1,False
-2025-02-16,0,19,2,49,1,False
-2025-02-17,0,18,1,46,1,False
-2025-02-18,0,17,1,45,1,False
-2025-02-19,0,18,1,43,2,False
-2025-02-20,0,18,1,45,2,False
-2025-02-21,0,19,1,49,1,False
-2025-02-22,0,19,2,53,1,False
-2025-02-23,0,19,1,54,1,False
-2025-02-24,0,19,1,46,2,False
-2025-02-25,0,18,1,42,1,False
-2025-02-26,0,19,1,45,1,False
-2025-02-27,0,19,1,43,2,False
-2025-02-28,0,19,1,46,2,False
-2025-03-01,0,22,1,54,1,False
-2025-03-02,0,19,2,52,1,False
-2025-03-03,0,18,1,41,2,False
-2025-03-04,0,18,1,41,1,False
-2025-03-05,0,19,1,42,1,False
-2025-03-06,0,18,1,42,2,False
-2025-03-07,0,20,1,49,1,False
-2025-03-08,0,20,2,53,1,False
-2025-03-09,0,19,2,51,2,False
-2025-03-10,0,18,1,44,2,False
-2025-03-11,0,17,1,45,2,False
-2025-03-12,0,18,1,48,2,False
-2025-03-13,0,17,2,44,2,False
-2025-03-14,0,19,1,46,2,False
-2025-03-15,0,20,2,49,1,False
-2025-03-16,0,20,1,53,2,False
-2025-03-17,0,19,1,45,2,False
-2025-03-18,0,18,1,45,1,False
-2025-03-19,0,17,1,43,2,False
-2025-03-20,0,18,1,46,2,False
-2025-03-21,0,18,2,48,1,False
-2025-03-22,0,19,1,58,1,False
-2025-03-23,0,20,1,56,1,False
-2025-03-24,0,17,1,48,2,False
-2025-03-25,0,17,1,46,2,False
-2025-03-26,0,17,1,44,2,False
-2025-03-27,0,18,1,47,2,False
-2025-03-28,0,18,1,48,2,False
-2025-03-29,0,21,1,53,1,False
-2025-03-30,0,18,2,59,1,False
-2025-03-31,0,17,1,49,2,False
-2025-04-01,0,17,1,46,2,False
-2025-04-02,0,17,1,44,2,False
-2025-04-03,0,19,1,46,2,False
-2025-04-04,0,19,1,65,1,False
-2025-04-05,0,20,1,94,1,False
-2025-04-06,0,20,2,100,1,False
-2025-04-07,0,19,1,62,2,False
-2025-04-08,0,18,1,56,1,False
-2025-04-09,0,19,1,52,2,False
-2025-04-10,0,18,1,54,2,False
-2025-04-11,0,19,1,58,1,False
-2025-04-12,0,21,1,67,1,False
-2025-04-13,0,20,1,72,1,False
-2025-04-14,0,20,1,58,2,False
-2025-04-15,0,19,1,54,2,False
-2025-04-16,0,19,1,53,2,False
-2025-04-17,0,18,1,50,1,True
+date,variable,popularity
+2020-04-19,quiet luxury,0
+2020-04-26,quiet luxury,0
+2020-05-03,quiet luxury,0
+2020-05-10,quiet luxury,0
+2020-05-17,quiet luxury,0
+2020-05-24,quiet luxury,0
+2020-05-31,quiet luxury,0
+2020-06-07,quiet luxury,0
+2020-06-14,quiet luxury,0
+2020-06-21,quiet luxury,0
+2020-06-28,quiet luxury,0
+2020-07-05,quiet luxury,0
+2020-07-12,quiet luxury,0
+2020-07-19,quiet luxury,0
+2020-07-26,quiet luxury,0
+2020-08-02,quiet luxury,0
+2020-08-09,quiet luxury,0
+2020-08-16,quiet luxury,0
+2020-08-23,quiet luxury,0
+2020-08-30,quiet luxury,0
+2020-09-06,quiet luxury,0
+2020-09-13,quiet luxury,0
+2020-09-20,quiet luxury,0
+2020-09-27,quiet luxury,0
+2020-10-04,quiet luxury,0
+2020-10-11,quiet luxury,0
+2020-10-18,quiet luxury,0
+2020-10-25,quiet luxury,0
+2020-11-01,quiet luxury,0
+2020-11-08,quiet luxury,0
+2020-11-15,quiet luxury,0
+2020-11-22,quiet luxury,0
+2020-11-29,quiet luxury,0
+2020-12-06,quiet luxury,0
+2020-12-13,quiet luxury,0
+2020-12-20,quiet luxury,0
+2020-12-27,quiet luxury,0
+2021-01-03,quiet luxury,0
+2021-01-10,quiet luxury,0
+2021-01-17,quiet luxury,0
+2021-01-24,quiet luxury,0
+2021-01-31,quiet luxury,0
+2021-02-07,quiet luxury,0
+2021-02-14,quiet luxury,0
+2021-02-21,quiet luxury,0
+2021-02-28,quiet luxury,0
+2021-03-07,quiet luxury,0
+2021-03-14,quiet luxury,0
+2021-03-21,quiet luxury,0
+2021-03-28,quiet luxury,0
+2021-04-04,quiet luxury,0
+2021-04-11,quiet luxury,0
+2021-04-18,quiet luxury,0
+2021-04-25,quiet luxury,0
+2021-05-02,quiet luxury,0
+2021-05-09,quiet luxury,0
+2021-05-16,quiet luxury,0
+2021-05-23,quiet luxury,0
+2021-05-30,quiet luxury,0
+2021-06-06,quiet luxury,0
+2021-06-13,quiet luxury,0
+2021-06-20,quiet luxury,0
+2021-06-27,quiet luxury,0
+2021-07-04,quiet luxury,0
+2021-07-11,quiet luxury,0
+2021-07-18,quiet luxury,0
+2021-07-25,quiet luxury,0
+2021-08-01,quiet luxury,0
+2021-08-08,quiet luxury,0
+2021-08-15,quiet luxury,0
+2021-08-22,quiet luxury,0
+2021-08-29,quiet luxury,0
+2021-09-05,quiet luxury,0
+2021-09-12,quiet luxury,0
+2021-09-19,quiet luxury,0
+2021-09-26,quiet luxury,0
+2021-10-03,quiet luxury,0
+2021-10-10,quiet luxury,0
+2021-10-17,quiet luxury,0
+2021-10-24,quiet luxury,0
+2021-10-31,quiet luxury,0
+2021-11-07,quiet luxury,0
+2021-11-14,quiet luxury,0
+2021-11-21,quiet luxury,0
+2021-11-28,quiet luxury,0
+2021-12-05,quiet luxury,0
+2021-12-12,quiet luxury,0
+2021-12-19,quiet luxury,0
+2021-12-26,quiet luxury,0
+2022-01-02,quiet luxury,0
+2022-01-09,quiet luxury,0
+2022-01-16,quiet luxury,0
+2022-01-23,quiet luxury,0
+2022-01-30,quiet luxury,0
+2022-02-06,quiet luxury,0
+2022-02-13,quiet luxury,0
+2022-02-20,quiet luxury,0
+2022-02-27,quiet luxury,0
+2022-03-06,quiet luxury,0
+2022-03-13,quiet luxury,0
+2022-03-20,quiet luxury,0
+2022-03-27,quiet luxury,0
+2022-04-03,quiet luxury,0
+2022-04-10,quiet luxury,0
+2022-04-17,quiet luxury,0
+2022-04-24,quiet luxury,0
+2022-05-01,quiet luxury,0
+2022-05-08,quiet luxury,0
+2022-05-15,quiet luxury,0
+2022-05-22,quiet luxury,0
+2022-05-29,quiet luxury,0
+2022-06-05,quiet luxury,0
+2022-06-12,quiet luxury,0
+2022-06-19,quiet luxury,0
+2022-06-26,quiet luxury,0
+2022-07-03,quiet luxury,0
+2022-07-10,quiet luxury,0
+2022-07-17,quiet luxury,0
+2022-07-24,quiet luxury,0
+2022-07-31,quiet luxury,0
+2022-08-07,quiet luxury,0
+2022-08-14,quiet luxury,0
+2022-08-21,quiet luxury,0
+2022-08-28,quiet luxury,0
+2022-09-04,quiet luxury,0
+2022-09-11,quiet luxury,0
+2022-09-18,quiet luxury,0
+2022-09-25,quiet luxury,0
+2022-10-02,quiet luxury,0
+2022-10-09,quiet luxury,0
+2022-10-16,quiet luxury,0
+2022-10-23,quiet luxury,0
+2022-10-30,quiet luxury,0
+2022-11-06,quiet luxury,0
+2022-11-13,quiet luxury,0
+2022-11-20,quiet luxury,0
+2022-11-27,quiet luxury,0
+2022-12-04,quiet luxury,0
+2022-12-11,quiet luxury,0
+2022-12-18,quiet luxury,0
+2022-12-25,quiet luxury,0
+2023-01-01,quiet luxury,0
+2023-01-08,quiet luxury,0
+2023-01-15,quiet luxury,0
+2023-01-22,quiet luxury,0
+2023-01-29,quiet luxury,0
+2023-02-05,quiet luxury,0
+2023-02-12,quiet luxury,0
+2023-02-19,quiet luxury,0
+2023-02-26,quiet luxury,0
+2023-03-05,quiet luxury,0
+2023-03-12,quiet luxury,0
+2023-03-19,quiet luxury,0
+2023-03-26,quiet luxury,1
+2023-04-02,quiet luxury,2
+2023-04-09,quiet luxury,2
+2023-04-16,quiet luxury,2
+2023-04-23,quiet luxury,2
+2023-04-30,quiet luxury,2
+2023-05-07,quiet luxury,2
+2023-05-14,quiet luxury,2
+2023-05-21,quiet luxury,2
+2023-05-28,quiet luxury,3
+2023-06-04,quiet luxury,2
+2023-06-11,quiet luxury,3
+2023-06-18,quiet luxury,2
+2023-06-25,quiet luxury,2
+2023-07-02,quiet luxury,2
+2023-07-09,quiet luxury,2
+2023-07-16,quiet luxury,2
+2023-07-23,quiet luxury,2
+2023-07-30,quiet luxury,2
+2023-08-06,quiet luxury,2
+2023-08-13,quiet luxury,2
+2023-08-20,quiet luxury,2
+2023-08-27,quiet luxury,2
+2023-09-03,quiet luxury,2
+2023-09-10,quiet luxury,2
+2023-09-17,quiet luxury,2
+2023-09-24,quiet luxury,2
+2023-10-01,quiet luxury,2
+2023-10-08,quiet luxury,2
+2023-10-15,quiet luxury,2
+2023-10-22,quiet luxury,2
+2023-10-29,quiet luxury,3
+2023-11-05,quiet luxury,1
+2023-11-12,quiet luxury,1
+2023-11-19,quiet luxury,2
+2023-11-26,quiet luxury,2
+2023-12-03,quiet luxury,2
+2023-12-10,quiet luxury,1
+2023-12-17,quiet luxury,2
+2023-12-24,quiet luxury,2
+2023-12-31,quiet luxury,2
+2024-01-07,quiet luxury,2
+2024-01-14,quiet luxury,2
+2024-01-21,quiet luxury,2
+2024-01-28,quiet luxury,3
+2024-02-04,quiet luxury,3
+2024-02-11,quiet luxury,2
+2024-02-18,quiet luxury,2
+2024-02-25,quiet luxury,2
+2024-03-03,quiet luxury,2
+2024-03-10,quiet luxury,2
+2024-03-17,quiet luxury,2
+2024-03-24,quiet luxury,2
+2024-03-31,quiet luxury,2
+2024-04-07,quiet luxury,2
+2024-04-14,quiet luxury,2
+2024-04-21,quiet luxury,2
+2024-04-28,quiet luxury,2
+2024-05-05,quiet luxury,2
+2024-05-12,quiet luxury,1
+2024-05-19,quiet luxury,2
+2024-05-26,quiet luxury,1
+2024-06-02,quiet luxury,1
+2024-06-09,quiet luxury,1
+2024-06-16,quiet luxury,1
+2024-06-23,quiet luxury,1
+2024-06-30,quiet luxury,2
+2024-07-07,quiet luxury,2
+2024-07-14,quiet luxury,2
+2024-07-21,quiet luxury,1
+2024-07-28,quiet luxury,1
+2024-08-04,quiet luxury,1
+2024-08-11,quiet luxury,1
+2024-08-18,quiet luxury,2
+2024-08-25,quiet luxury,1
+2024-09-01,quiet luxury,2
+2024-09-08,quiet luxury,2
+2024-09-15,quiet luxury,2
+2024-09-22,quiet luxury,1
+2024-09-29,quiet luxury,1
+2024-10-06,quiet luxury,2
+2024-10-13,quiet luxury,1
+2024-10-20,quiet luxury,2
+2024-10-27,quiet luxury,1
+2024-11-03,quiet luxury,1
+2024-11-10,quiet luxury,1
+2024-11-17,quiet luxury,2
+2024-11-24,quiet luxury,2
+2024-12-01,quiet luxury,2
+2024-12-08,quiet luxury,2
+2024-12-15,quiet luxury,2
+2024-12-22,quiet luxury,2
+2024-12-29,quiet luxury,2
+2025-01-05,quiet luxury,2
+2025-01-12,quiet luxury,2
+2025-01-19,quiet luxury,2
+2025-01-26,quiet luxury,2
+2025-02-02,quiet luxury,1
+2025-02-09,quiet luxury,1
+2025-02-16,quiet luxury,1
+2025-02-23,quiet luxury,2
+2025-03-02,quiet luxury,2
+2025-03-09,quiet luxury,2
+2025-03-16,quiet luxury,2
+2025-03-23,quiet luxury,2
+2025-03-30,quiet luxury,1
+2025-04-06,quiet luxury,1
+2025-04-13,quiet luxury,2
+2025-04-20,quiet luxury,2
+2020-04-19,grunge,23
+2020-04-26,grunge,21
+2020-05-03,grunge,20
+2020-05-10,grunge,20
+2020-05-17,grunge,22
+2020-05-24,grunge,18
+2020-05-31,grunge,19
+2020-06-07,grunge,21
+2020-06-14,grunge,20
+2020-06-21,grunge,21
+2020-06-28,grunge,22
+2020-07-05,grunge,21
+2020-07-12,grunge,20
+2020-07-19,grunge,20
+2020-07-26,grunge,21
+2020-08-02,grunge,21
+2020-08-09,grunge,22
+2020-08-16,grunge,20
+2020-08-23,grunge,21
+2020-08-30,grunge,20
+2020-09-06,grunge,21
+2020-09-13,grunge,24
+2020-09-20,grunge,30
+2020-09-27,grunge,22
+2020-10-04,grunge,22
+2020-10-11,grunge,22
+2020-10-18,grunge,22
+2020-10-25,grunge,23
+2020-11-01,grunge,18
+2020-11-08,grunge,21
+2020-11-15,grunge,21
+2020-11-22,grunge,22
+2020-11-29,grunge,21
+2020-12-06,grunge,21
+2020-12-13,grunge,20
+2020-12-20,grunge,22
+2020-12-27,grunge,23
+2021-01-03,grunge,24
+2021-01-10,grunge,24
+2021-01-17,grunge,23
+2021-01-24,grunge,23
+2021-01-31,grunge,23
+2021-02-07,grunge,22
+2021-02-14,grunge,23
+2021-02-21,grunge,22
+2021-02-28,grunge,22
+2021-03-07,grunge,19
+2021-03-14,grunge,20
+2021-03-21,grunge,20
+2021-03-28,grunge,20
+2021-04-04,grunge,22
+2021-04-11,grunge,20
+2021-04-18,grunge,20
+2021-04-25,grunge,20
+2021-05-02,grunge,20
+2021-05-09,grunge,22
+2021-05-16,grunge,23
+2021-05-23,grunge,22
+2021-05-30,grunge,22
+2021-06-06,grunge,21
+2021-06-13,grunge,21
+2021-06-20,grunge,21
+2021-06-27,grunge,22
+2021-07-04,grunge,21
+2021-07-11,grunge,25
+2021-07-18,grunge,25
+2021-07-25,grunge,25
+2021-08-01,grunge,26
+2021-08-08,grunge,27
+2021-08-15,grunge,26
+2021-08-22,grunge,26
+2021-08-29,grunge,24
+2021-09-05,grunge,23
+2021-09-12,grunge,23
+2021-09-19,grunge,25
+2021-09-26,grunge,23
+2021-10-03,grunge,23
+2021-10-10,grunge,26
+2021-10-17,grunge,25
+2021-10-24,grunge,27
+2021-10-31,grunge,24
+2021-11-07,grunge,26
+2021-11-14,grunge,24
+2021-11-21,grunge,25
+2021-11-28,grunge,25
+2021-12-05,grunge,24
+2021-12-12,grunge,23
+2021-12-19,grunge,23
+2021-12-26,grunge,25
+2022-01-02,grunge,25
+2022-01-09,grunge,24
+2022-01-16,grunge,23
+2022-01-23,grunge,27
+2022-01-30,grunge,25
+2022-02-06,grunge,24
+2022-02-13,grunge,26
+2022-02-20,grunge,27
+2022-02-27,grunge,25
+2022-03-06,grunge,26
+2022-03-13,grunge,27
+2022-03-20,grunge,26
+2022-03-27,grunge,25
+2022-04-03,grunge,26
+2022-04-10,grunge,26
+2022-04-17,grunge,26
+2022-04-24,grunge,26
+2022-05-01,grunge,24
+2022-05-08,grunge,22
+2022-05-15,grunge,23
+2022-05-22,grunge,23
+2022-05-29,grunge,23
+2022-06-05,grunge,24
+2022-06-12,grunge,22
+2022-06-19,grunge,25
+2022-06-26,grunge,23
+2022-07-03,grunge,24
+2022-07-10,grunge,24
+2022-07-17,grunge,25
+2022-07-24,grunge,25
+2022-07-31,grunge,25
+2022-08-07,grunge,26
+2022-08-14,grunge,24
+2022-08-21,grunge,24
+2022-08-28,grunge,40
+2022-09-04,grunge,24
+2022-09-11,grunge,24
+2022-09-18,grunge,25
+2022-09-25,grunge,24
+2022-10-02,grunge,24
+2022-10-09,grunge,23
+2022-10-16,grunge,23
+2022-10-23,grunge,23
+2022-10-30,grunge,22
+2022-11-06,grunge,21
+2022-11-13,grunge,21
+2022-11-20,grunge,21
+2022-11-27,grunge,23
+2022-12-04,grunge,21
+2022-12-11,grunge,21
+2022-12-18,grunge,20
+2022-12-25,grunge,23
+2023-01-01,grunge,22
+2023-01-08,grunge,23
+2023-01-15,grunge,23
+2023-01-22,grunge,23
+2023-01-29,grunge,22
+2023-02-05,grunge,22
+2023-02-12,grunge,21
+2023-02-19,grunge,22
+2023-02-26,grunge,20
+2023-03-05,grunge,20
+2023-03-12,grunge,20
+2023-03-19,grunge,20
+2023-03-26,grunge,19
+2023-04-02,grunge,20
+2023-04-09,grunge,20
+2023-04-16,grunge,18
+2023-04-23,grunge,21
+2023-04-30,grunge,18
+2023-05-07,grunge,18
+2023-05-14,grunge,19
+2023-05-21,grunge,18
+2023-05-28,grunge,18
+2023-06-04,grunge,18
+2023-06-11,grunge,18
+2023-06-18,grunge,24
+2023-06-25,grunge,28
+2023-07-02,grunge,22
+2023-07-09,grunge,21
+2023-07-16,grunge,19
+2023-07-23,grunge,25
+2023-07-30,grunge,20
+2023-08-06,grunge,19
+2023-08-13,grunge,22
+2023-08-20,grunge,19
+2023-08-27,grunge,18
+2023-09-03,grunge,20
+2023-09-10,grunge,19
+2023-09-17,grunge,22
+2023-09-24,grunge,20
+2023-10-01,grunge,17
+2023-10-08,grunge,18
+2023-10-15,grunge,18
+2023-10-22,grunge,19
+2023-10-29,grunge,19
+2023-11-05,grunge,21
+2023-11-12,grunge,19
+2023-11-19,grunge,18
+2023-11-26,grunge,20
+2023-12-03,grunge,19
+2023-12-10,grunge,19
+2023-12-17,grunge,18
+2023-12-24,grunge,17
+2023-12-31,grunge,18
+2024-01-07,grunge,19
+2024-01-14,grunge,19
+2024-01-21,grunge,19
+2024-01-28,grunge,19
+2024-02-04,grunge,19
+2024-02-11,grunge,18
+2024-02-18,grunge,18
+2024-02-25,grunge,19
+2024-03-03,grunge,18
+2024-03-10,grunge,16
+2024-03-17,grunge,18
+2024-03-24,grunge,17
+2024-03-31,grunge,17
+2024-04-07,grunge,19
+2024-04-14,grunge,17
+2024-04-21,grunge,18
+2024-04-28,grunge,16
+2024-05-05,grunge,16
+2024-05-12,grunge,17
+2024-05-19,grunge,16
+2024-05-26,grunge,17
+2024-06-02,grunge,15
+2024-06-09,grunge,16
+2024-06-16,grunge,16
+2024-06-23,grunge,15
+2024-06-30,grunge,15
+2024-07-07,grunge,16
+2024-07-14,grunge,17
+2024-07-21,grunge,17
+2024-07-28,grunge,16
+2024-08-04,grunge,17
+2024-08-11,grunge,23
+2024-08-18,grunge,26
+2024-08-25,grunge,25
+2024-09-01,grunge,26
+2024-09-08,grunge,24
+2024-09-15,grunge,25
+2024-09-22,grunge,24
+2024-09-29,grunge,24
+2024-10-06,grunge,24
+2024-10-13,grunge,27
+2024-10-20,grunge,25
+2024-10-27,grunge,22
+2024-11-03,grunge,20
+2024-11-10,grunge,22
+2024-11-17,grunge,20
+2024-11-24,grunge,21
+2024-12-01,grunge,21
+2024-12-08,grunge,22
+2024-12-15,grunge,22
+2024-12-22,grunge,20
+2024-12-29,grunge,21
+2025-01-05,grunge,19
+2025-01-12,grunge,21
+2025-01-19,grunge,19
+2025-01-26,grunge,21
+2025-02-02,grunge,20
+2025-02-09,grunge,19
+2025-02-16,grunge,19
+2025-02-23,grunge,20
+2025-03-02,grunge,19
+2025-03-09,grunge,19
+2025-03-16,grunge,20
+2025-03-23,grunge,20
+2025-03-30,grunge,19
+2025-04-06,grunge,22
+2025-04-13,grunge,22
+2025-04-20,grunge,22
+2020-04-19,y2k,14
+2020-04-26,y2k,10
+2020-05-03,y2k,12
+2020-05-10,y2k,23
+2020-05-17,y2k,11
+2020-05-24,y2k,13
+2020-05-31,y2k,9
+2020-06-07,y2k,10
+2020-06-14,y2k,12
+2020-06-21,y2k,10
+2020-06-28,y2k,11
+2020-07-05,y2k,11
+2020-07-12,y2k,12
+2020-07-19,y2k,13
+2020-07-26,y2k,13
+2020-08-02,y2k,12
+2020-08-09,y2k,12
+2020-08-16,y2k,13
+2020-08-23,y2k,11
+2020-08-30,y2k,11
+2020-09-06,y2k,11
+2020-09-13,y2k,13
+2020-09-20,y2k,12
+2020-09-27,y2k,10
+2020-10-04,y2k,10
+2020-10-11,y2k,10
+2020-10-18,y2k,10
+2020-10-25,y2k,10
+2020-11-01,y2k,9
+2020-11-08,y2k,10
+2020-11-15,y2k,11
+2020-11-22,y2k,12
+2020-11-29,y2k,11
+2020-12-06,y2k,11
+2020-12-13,y2k,11
+2020-12-20,y2k,13
+2020-12-27,y2k,16
+2021-01-03,y2k,13
+2021-01-10,y2k,13
+2021-01-17,y2k,15
+2021-01-24,y2k,14
+2021-01-31,y2k,13
+2021-02-07,y2k,12
+2021-02-14,y2k,13
+2021-02-21,y2k,14
+2021-02-28,y2k,14
+2021-03-07,y2k,13
+2021-03-14,y2k,13
+2021-03-21,y2k,14
+2021-03-28,y2k,15
+2021-04-04,y2k,15
+2021-04-11,y2k,15
+2021-04-18,y2k,16
+2021-04-25,y2k,15
+2021-05-02,y2k,15
+2021-05-09,y2k,16
+2021-05-16,y2k,15
+2021-05-23,y2k,17
+2021-05-30,y2k,17
+2021-06-06,y2k,16
+2021-06-13,y2k,16
+2021-06-20,y2k,17
+2021-06-27,y2k,17
+2021-07-04,y2k,19
+2021-07-11,y2k,22
+2021-07-18,y2k,21
+2021-07-25,y2k,20
+2021-08-01,y2k,19
+2021-08-08,y2k,18
+2021-08-15,y2k,18
+2021-08-22,y2k,18
+2021-08-29,y2k,17
+2021-09-05,y2k,18
+2021-09-12,y2k,25
+2021-09-19,y2k,24
+2021-09-26,y2k,24
+2021-10-03,y2k,21
+2021-10-10,y2k,21
+2021-10-17,y2k,19
+2021-10-24,y2k,20
+2021-10-31,y2k,18
+2021-11-07,y2k,19
+2021-11-14,y2k,19
+2021-11-21,y2k,18
+2021-11-28,y2k,18
+2021-12-05,y2k,19
+2021-12-12,y2k,19
+2021-12-19,y2k,20
+2021-12-26,y2k,25
+2022-01-02,y2k,23
+2022-01-09,y2k,21
+2022-01-16,y2k,20
+2022-01-23,y2k,23
+2022-01-30,y2k,25
+2022-02-06,y2k,24
+2022-02-13,y2k,23
+2022-02-20,y2k,25
+2022-02-27,y2k,29
+2022-03-06,y2k,34
+2022-03-13,y2k,30
+2022-03-20,y2k,28
+2022-03-27,y2k,27
+2022-04-03,y2k,29
+2022-04-10,y2k,29
+2022-04-17,y2k,31
+2022-04-24,y2k,30
+2022-05-01,y2k,30
+2022-05-08,y2k,30
+2022-05-15,y2k,31
+2022-05-22,y2k,31
+2022-05-29,y2k,31
+2022-06-05,y2k,34
+2022-06-12,y2k,33
+2022-06-19,y2k,33
+2022-06-26,y2k,34
+2022-07-03,y2k,35
+2022-07-10,y2k,36
+2022-07-17,y2k,40
+2022-07-24,y2k,39
+2022-07-31,y2k,39
+2022-08-07,y2k,40
+2022-08-14,y2k,44
+2022-08-21,y2k,42
+2022-08-28,y2k,42
+2022-09-04,y2k,41
+2022-09-11,y2k,41
+2022-09-18,y2k,44
+2022-09-25,y2k,42
+2022-10-02,y2k,43
+2022-10-09,y2k,43
+2022-10-16,y2k,40
+2022-10-23,y2k,43
+2022-10-30,y2k,39
+2022-11-06,y2k,40
+2022-11-13,y2k,42
+2022-11-20,y2k,38
+2022-11-27,y2k,39
+2022-12-04,y2k,40
+2022-12-11,y2k,43
+2022-12-18,y2k,42
+2022-12-25,y2k,50
+2023-01-01,y2k,47
+2023-01-08,y2k,52
+2023-01-15,y2k,63
+2023-01-22,y2k,63
+2023-01-29,y2k,60
+2023-02-05,y2k,56
+2023-02-12,y2k,54
+2023-02-19,y2k,54
+2023-02-26,y2k,49
+2023-03-05,y2k,50
+2023-03-12,y2k,49
+2023-03-19,y2k,49
+2023-03-26,y2k,49
+2023-04-02,y2k,50
+2023-04-09,y2k,87
+2023-04-16,y2k,53
+2023-04-23,y2k,51
+2023-04-30,y2k,49
+2023-05-07,y2k,46
+2023-05-14,y2k,50
+2023-05-21,y2k,47
+2023-05-28,y2k,47
+2023-06-04,y2k,47
+2023-06-11,y2k,50
+2023-06-18,y2k,48
+2023-06-25,y2k,49
+2023-07-02,y2k,53
+2023-07-09,y2k,51
+2023-07-16,y2k,51
+2023-07-23,y2k,54
+2023-07-30,y2k,53
+2023-08-06,y2k,56
+2023-08-13,y2k,52
+2023-08-20,y2k,48
+2023-08-27,y2k,51
+2023-09-03,y2k,51
+2023-09-10,y2k,49
+2023-09-17,y2k,50
+2023-09-24,y2k,53
+2023-10-01,y2k,53
+2023-10-08,y2k,53
+2023-10-15,y2k,56
+2023-10-22,y2k,49
+2023-10-29,y2k,50
+2023-11-05,y2k,52
+2023-11-12,y2k,50
+2023-11-19,y2k,51
+2023-11-26,y2k,51
+2023-12-03,y2k,54
+2023-12-10,y2k,55
+2023-12-17,y2k,49
+2023-12-24,y2k,49
+2023-12-31,y2k,56
+2024-01-07,y2k,48
+2024-01-14,y2k,47
+2024-01-21,y2k,50
+2024-01-28,y2k,49
+2024-02-04,y2k,50
+2024-02-11,y2k,48
+2024-02-18,y2k,52
+2024-02-25,y2k,53
+2024-03-03,y2k,53
+2024-03-10,y2k,52
+2024-03-17,y2k,50
+2024-03-24,y2k,55
+2024-03-31,y2k,56
+2024-04-07,y2k,53
+2024-04-14,y2k,53
+2024-04-21,y2k,56
+2024-04-28,y2k,54
+2024-05-05,y2k,51
+2024-05-12,y2k,50
+2024-05-19,y2k,52
+2024-05-26,y2k,55
+2024-06-02,y2k,54
+2024-06-09,y2k,52
+2024-06-16,y2k,50
+2024-06-23,y2k,50
+2024-06-30,y2k,54
+2024-07-07,y2k,54
+2024-07-14,y2k,64
+2024-07-21,y2k,62
+2024-07-28,y2k,65
+2024-08-04,y2k,65
+2024-08-11,y2k,74
+2024-08-18,y2k,100
+2024-08-25,y2k,78
+2024-09-01,y2k,65
+2024-09-08,y2k,61
+2024-09-15,y2k,59
+2024-09-22,y2k,57
+2024-09-29,y2k,59
+2024-10-06,y2k,55
+2024-10-13,y2k,55
+2024-10-20,y2k,57
+2024-10-27,y2k,53
+2024-11-03,y2k,50
+2024-11-10,y2k,63
+2024-11-17,y2k,62
+2024-11-24,y2k,63
+2024-12-01,y2k,84
+2024-12-08,y2k,88
+2024-12-15,y2k,71
+2024-12-22,y2k,79
+2024-12-29,y2k,78
+2025-01-05,y2k,55
+2025-01-12,y2k,56
+2025-01-19,y2k,53
+2025-01-26,y2k,56
+2025-02-02,y2k,51
+2025-02-09,y2k,51
+2025-02-16,y2k,52
+2025-02-23,y2k,57
+2025-03-02,y2k,52
+2025-03-09,y2k,52
+2025-03-16,y2k,54
+2025-03-23,y2k,52
+2025-03-30,y2k,66
+2025-04-06,y2k,70
+2025-04-13,y2k,64
+2025-04-20,y2k,64
+2020-04-19,office siren,0
+2020-04-26,office siren,0
+2020-05-03,office siren,0
+2020-05-10,office siren,0
+2020-05-17,office siren,0
+2020-05-24,office siren,0
+2020-05-31,office siren,0
+2020-06-07,office siren,0
+2020-06-14,office siren,0
+2020-06-21,office siren,0
+2020-06-28,office siren,0
+2020-07-05,office siren,0
+2020-07-12,office siren,0
+2020-07-19,office siren,0
+2020-07-26,office siren,0
+2020-08-02,office siren,0
+2020-08-09,office siren,0
+2020-08-16,office siren,0
+2020-08-23,office siren,0
+2020-08-30,office siren,0
+2020-09-06,office siren,0
+2020-09-13,office siren,0
+2020-09-20,office siren,0
+2020-09-27,office siren,0
+2020-10-04,office siren,0
+2020-10-11,office siren,0
+2020-10-18,office siren,0
+2020-10-25,office siren,0
+2020-11-01,office siren,0
+2020-11-08,office siren,0
+2020-11-15,office siren,0
+2020-11-22,office siren,0
+2020-11-29,office siren,0
+2020-12-06,office siren,0
+2020-12-13,office siren,0
+2020-12-20,office siren,0
+2020-12-27,office siren,0
+2021-01-03,office siren,0
+2021-01-10,office siren,0
+2021-01-17,office siren,0
+2021-01-24,office siren,0
+2021-01-31,office siren,0
+2021-02-07,office siren,0
+2021-02-14,office siren,0
+2021-02-21,office siren,0
+2021-02-28,office siren,0
+2021-03-07,office siren,0
+2021-03-14,office siren,0
+2021-03-21,office siren,0
+2021-03-28,office siren,0
+2021-04-04,office siren,0
+2021-04-11,office siren,0
+2021-04-18,office siren,0
+2021-04-25,office siren,0
+2021-05-02,office siren,0
+2021-05-09,office siren,0
+2021-05-16,office siren,0
+2021-05-23,office siren,0
+2021-05-30,office siren,0
+2021-06-06,office siren,0
+2021-06-13,office siren,0
+2021-06-20,office siren,0
+2021-06-27,office siren,0
+2021-07-04,office siren,0
+2021-07-11,office siren,0
+2021-07-18,office siren,0
+2021-07-25,office siren,0
+2021-08-01,office siren,0
+2021-08-08,office siren,0
+2021-08-15,office siren,0
+2021-08-22,office siren,0
+2021-08-29,office siren,0
+2021-09-05,office siren,0
+2021-09-12,office siren,0
+2021-09-19,office siren,0
+2021-09-26,office siren,0
+2021-10-03,office siren,0
+2021-10-10,office siren,0
+2021-10-17,office siren,0
+2021-10-24,office siren,0
+2021-10-31,office siren,0
+2021-11-07,office siren,0
+2021-11-14,office siren,0
+2021-11-21,office siren,0
+2021-11-28,office siren,0
+2021-12-05,office siren,0
+2021-12-12,office siren,0
+2021-12-19,office siren,0
+2021-12-26,office siren,0
+2022-01-02,office siren,0
+2022-01-09,office siren,0
+2022-01-16,office siren,0
+2022-01-23,office siren,0
+2022-01-30,office siren,0
+2022-02-06,office siren,0
+2022-02-13,office siren,0
+2022-02-20,office siren,0
+2022-02-27,office siren,0
+2022-03-06,office siren,0
+2022-03-13,office siren,0
+2022-03-20,office siren,0
+2022-03-27,office siren,0
+2022-04-03,office siren,0
+2022-04-10,office siren,0
+2022-04-17,office siren,0
+2022-04-24,office siren,0
+2022-05-01,office siren,0
+2022-05-08,office siren,0
+2022-05-15,office siren,0
+2022-05-22,office siren,0
+2022-05-29,office siren,0
+2022-06-05,office siren,0
+2022-06-12,office siren,0
+2022-06-19,office siren,0
+2022-06-26,office siren,0
+2022-07-03,office siren,0
+2022-07-10,office siren,0
+2022-07-17,office siren,0
+2022-07-24,office siren,0
+2022-07-31,office siren,0
+2022-08-07,office siren,0
+2022-08-14,office siren,0
+2022-08-21,office siren,0
+2022-08-28,office siren,0
+2022-09-04,office siren,0
+2022-09-11,office siren,0
+2022-09-18,office siren,0
+2022-09-25,office siren,0
+2022-10-02,office siren,0
+2022-10-09,office siren,0
+2022-10-16,office siren,0
+2022-10-23,office siren,0
+2022-10-30,office siren,0
+2022-11-06,office siren,0
+2022-11-13,office siren,0
+2022-11-20,office siren,0
+2022-11-27,office siren,0
+2022-12-04,office siren,0
+2022-12-11,office siren,0
+2022-12-18,office siren,0
+2022-12-25,office siren,0
+2023-01-01,office siren,0
+2023-01-08,office siren,0
+2023-01-15,office siren,0
+2023-01-22,office siren,0
+2023-01-29,office siren,0
+2023-02-05,office siren,0
+2023-02-12,office siren,0
+2023-02-19,office siren,0
+2023-02-26,office siren,0
+2023-03-05,office siren,0
+2023-03-12,office siren,0
+2023-03-19,office siren,0
+2023-03-26,office siren,0
+2023-04-02,office siren,0
+2023-04-09,office siren,0
+2023-04-16,office siren,0
+2023-04-23,office siren,0
+2023-04-30,office siren,0
+2023-05-07,office siren,0
+2023-05-14,office siren,0
+2023-05-21,office siren,0
+2023-05-28,office siren,0
+2023-06-04,office siren,0
+2023-06-11,office siren,0
+2023-06-18,office siren,0
+2023-06-25,office siren,0
+2023-07-02,office siren,0
+2023-07-09,office siren,0
+2023-07-16,office siren,0
+2023-07-23,office siren,0
+2023-07-30,office siren,0
+2023-08-06,office siren,0
+2023-08-13,office siren,0
+2023-08-20,office siren,0
+2023-08-27,office siren,0
+2023-09-03,office siren,0
+2023-09-10,office siren,0
+2023-09-17,office siren,0
+2023-09-24,office siren,0
+2023-10-01,office siren,0
+2023-10-08,office siren,0
+2023-10-15,office siren,0
+2023-10-22,office siren,0
+2023-10-29,office siren,0
+2023-11-05,office siren,0
+2023-11-12,office siren,0
+2023-11-19,office siren,0
+2023-11-26,office siren,0
+2023-12-03,office siren,0
+2023-12-10,office siren,0
+2023-12-17,office siren,0
+2023-12-24,office siren,0
+2023-12-31,office siren,0
+2024-01-07,office siren,0
+2024-01-14,office siren,1
+2024-01-21,office siren,1
+2024-01-28,office siren,1
+2024-02-04,office siren,1
+2024-02-11,office siren,1
+2024-02-18,office siren,1
+2024-02-25,office siren,1
+2024-03-03,office siren,1
+2024-03-10,office siren,1
+2024-03-17,office siren,1
+2024-03-24,office siren,1
+2024-03-31,office siren,1
+2024-04-07,office siren,1
+2024-04-14,office siren,1
+2024-04-21,office siren,1
+2024-04-28,office siren,1
+2024-05-05,office siren,2
+2024-05-12,office siren,3
+2024-05-19,office siren,2
+2024-05-26,office siren,2
+2024-06-02,office siren,3
+2024-06-09,office siren,3
+2024-06-16,office siren,3
+2024-06-23,office siren,3
+2024-06-30,office siren,4
+2024-07-07,office siren,4
+2024-07-14,office siren,4
+2024-07-21,office siren,5
+2024-07-28,office siren,5
+2024-08-04,office siren,5
+2024-08-11,office siren,5
+2024-08-18,office siren,4
+2024-08-25,office siren,4
+2024-09-01,office siren,4
+2024-09-08,office siren,4
+2024-09-15,office siren,4
+2024-09-22,office siren,4
+2024-09-29,office siren,4
+2024-10-06,office siren,4
+2024-10-13,office siren,4
+2024-10-20,office siren,4
+2024-10-27,office siren,3
+2024-11-03,office siren,2
+2024-11-10,office siren,2
+2024-11-17,office siren,2
+2024-11-24,office siren,2
+2024-12-01,office siren,2
+2024-12-08,office siren,2
+2024-12-15,office siren,2
+2024-12-22,office siren,2
+2024-12-29,office siren,2
+2025-01-05,office siren,2
+2025-01-12,office siren,2
+2025-01-19,office siren,2
+2025-01-26,office siren,2
+2025-02-02,office siren,2
+2025-02-09,office siren,2
+2025-02-16,office siren,2
+2025-02-23,office siren,2
+2025-03-02,office siren,2
+2025-03-09,office siren,3
+2025-03-16,office siren,7
+2025-03-23,office siren,2
+2025-03-30,office siren,2
+2025-04-06,office siren,2
+2025-04-13,office siren,2
+2025-04-20,office siren,2
+2020-04-19,athleisure,3
+2020-04-26,athleisure,3
+2020-05-03,athleisure,3
+2020-05-10,athleisure,3
+2020-05-17,athleisure,3
+2020-05-24,athleisure,3
+2020-05-31,athleisure,3
+2020-06-07,athleisure,3
+2020-06-14,athleisure,2
+2020-06-21,athleisure,3
+2020-06-28,athleisure,3
+2020-07-05,athleisure,3
+2020-07-12,athleisure,3
+2020-07-19,athleisure,3
+2020-07-26,athleisure,3
+2020-08-02,athleisure,3
+2020-08-09,athleisure,3
+2020-08-16,athleisure,3
+2020-08-23,athleisure,4
+2020-08-30,athleisure,3
+2020-09-06,athleisure,3
+2020-09-13,athleisure,3
+2020-09-20,athleisure,3
+2020-09-27,athleisure,3
+2020-10-04,athleisure,3
+2020-10-11,athleisure,3
+2020-10-18,athleisure,3
+2020-10-25,athleisure,3
+2020-11-01,athleisure,3
+2020-11-08,athleisure,2
+2020-11-15,athleisure,3
+2020-11-22,athleisure,3
+2020-11-29,athleisure,3
+2020-12-06,athleisure,3
+2020-12-13,athleisure,3
+2020-12-20,athleisure,3
+2020-12-27,athleisure,3
+2021-01-03,athleisure,3
+2021-01-10,athleisure,3
+2021-01-17,athleisure,3
+2021-01-24,athleisure,3
+2021-01-31,athleisure,2
+2021-02-07,athleisure,3
+2021-02-14,athleisure,2
+2021-02-21,athleisure,3
+2021-02-28,athleisure,2
+2021-03-07,athleisure,3
+2021-03-14,athleisure,3
+2021-03-21,athleisure,3
+2021-03-28,athleisure,2
+2021-04-04,athleisure,3
+2021-04-11,athleisure,3
+2021-04-18,athleisure,2
+2021-04-25,athleisure,2
+2021-05-02,athleisure,2
+2021-05-09,athleisure,2
+2021-05-16,athleisure,3
+2021-05-23,athleisure,2
+2021-05-30,athleisure,2
+2021-06-06,athleisure,2
+2021-06-13,athleisure,2
+2021-06-20,athleisure,2
+2021-06-27,athleisure,2
+2021-07-04,athleisure,2
+2021-07-11,athleisure,2
+2021-07-18,athleisure,3
+2021-07-25,athleisure,3
+2021-08-01,athleisure,2
+2021-08-08,athleisure,2
+2021-08-15,athleisure,2
+2021-08-22,athleisure,2
+2021-08-29,athleisure,2
+2021-09-05,athleisure,2
+2021-09-12,athleisure,2
+2021-09-19,athleisure,3
+2021-09-26,athleisure,3
+2021-10-03,athleisure,3
+2021-10-10,athleisure,3
+2021-10-17,athleisure,4
+2021-10-24,athleisure,3
+2021-10-31,athleisure,2
+2021-11-07,athleisure,3
+2021-11-14,athleisure,3
+2021-11-21,athleisure,3
+2021-11-28,athleisure,3
+2021-12-05,athleisure,3
+2021-12-12,athleisure,3
+2021-12-19,athleisure,2
+2021-12-26,athleisure,2
+2022-01-02,athleisure,3
+2022-01-09,athleisure,3
+2022-01-16,athleisure,2
+2022-01-23,athleisure,3
+2022-01-30,athleisure,3
+2022-02-06,athleisure,3
+2022-02-13,athleisure,3
+2022-02-20,athleisure,3
+2022-02-27,athleisure,3
+2022-03-06,athleisure,3
+2022-03-13,athleisure,3
+2022-03-20,athleisure,3
+2022-03-27,athleisure,3
+2022-04-03,athleisure,3
+2022-04-10,athleisure,3
+2022-04-17,athleisure,3
+2022-04-24,athleisure,3
+2022-05-01,athleisure,3
+2022-05-08,athleisure,3
+2022-05-15,athleisure,3
+2022-05-22,athleisure,3
+2022-05-29,athleisure,2
+2022-06-05,athleisure,2
+2022-06-12,athleisure,2
+2022-06-19,athleisure,3
+2022-06-26,athleisure,3
+2022-07-03,athleisure,2
+2022-07-10,athleisure,2
+2022-07-17,athleisure,3
+2022-07-24,athleisure,2
+2022-07-31,athleisure,2
+2022-08-07,athleisure,3
+2022-08-14,athleisure,3
+2022-08-21,athleisure,3
+2022-08-28,athleisure,3
+2022-09-04,athleisure,2
+2022-09-11,athleisure,3
+2022-09-18,athleisure,3
+2022-09-25,athleisure,3
+2022-10-02,athleisure,3
+2022-10-09,athleisure,3
+2022-10-16,athleisure,3
+2022-10-23,athleisure,2
+2022-10-30,athleisure,2
+2022-11-06,athleisure,3
+2022-11-13,athleisure,3
+2022-11-20,athleisure,3
+2022-11-27,athleisure,3
+2022-12-04,athleisure,3
+2022-12-11,athleisure,3
+2022-12-18,athleisure,2
+2022-12-25,athleisure,2
+2023-01-01,athleisure,3
+2023-01-08,athleisure,3
+2023-01-15,athleisure,3
+2023-01-22,athleisure,3
+2023-01-29,athleisure,3
+2023-02-05,athleisure,4
+2023-02-12,athleisure,3
+2023-02-19,athleisure,3
+2023-02-26,athleisure,3
+2023-03-05,athleisure,3
+2023-03-12,athleisure,3
+2023-03-19,athleisure,3
+2023-03-26,athleisure,3
+2023-04-02,athleisure,3
+2023-04-09,athleisure,3
+2023-04-16,athleisure,3
+2023-04-23,athleisure,3
+2023-04-30,athleisure,3
+2023-05-07,athleisure,3
+2023-05-14,athleisure,3
+2023-05-21,athleisure,3
+2023-05-28,athleisure,3
+2023-06-04,athleisure,3
+2023-06-11,athleisure,3
+2023-06-18,athleisure,3
+2023-06-25,athleisure,2
+2023-07-02,athleisure,2
+2023-07-09,athleisure,3
+2023-07-16,athleisure,3
+2023-07-23,athleisure,2
+2023-07-30,athleisure,2
+2023-08-06,athleisure,2
+2023-08-13,athleisure,2
+2023-08-20,athleisure,2
+2023-08-27,athleisure,3
+2023-09-03,athleisure,3
+2023-09-10,athleisure,2
+2023-09-17,athleisure,3
+2023-09-24,athleisure,3
+2023-10-01,athleisure,3
+2023-10-08,athleisure,4
+2023-10-15,athleisure,3
+2023-10-22,athleisure,4
+2023-10-29,athleisure,4
+2023-11-05,athleisure,4
+2023-11-12,athleisure,4
+2023-11-19,athleisure,4
+2023-11-26,athleisure,3
+2023-12-03,athleisure,3
+2023-12-10,athleisure,3
+2023-12-17,athleisure,2
+2023-12-24,athleisure,3
+2023-12-31,athleisure,3
+2024-01-07,athleisure,4
+2024-01-14,athleisure,3
+2024-01-21,athleisure,3
+2024-01-28,athleisure,3
+2024-02-04,athleisure,3
+2024-02-11,athleisure,3
+2024-02-18,athleisure,3
+2024-02-25,athleisure,3
+2024-03-03,athleisure,3
+2024-03-10,athleisure,3
+2024-03-17,athleisure,3
+2024-03-24,athleisure,3
+2024-03-31,athleisure,3
+2024-04-07,athleisure,3
+2024-04-14,athleisure,3
+2024-04-21,athleisure,3
+2024-04-28,athleisure,3
+2024-05-05,athleisure,3
+2024-05-12,athleisure,3
+2024-05-19,athleisure,3
+2024-05-26,athleisure,3
+2024-06-02,athleisure,3
+2024-06-09,athleisure,3
+2024-06-16,athleisure,3
+2024-06-23,athleisure,3
+2024-06-30,athleisure,3
+2024-07-07,athleisure,3
+2024-07-14,athleisure,3
+2024-07-21,athleisure,3
+2024-07-28,athleisure,3
+2024-08-04,athleisure,3
+2024-08-11,athleisure,4
+2024-08-18,athleisure,3
+2024-08-25,athleisure,3
+2024-09-01,athleisure,3
+2024-09-08,athleisure,3
+2024-09-15,athleisure,3
+2024-09-22,athleisure,3
+2024-09-29,athleisure,3
+2024-10-06,athleisure,3
+2024-10-13,athleisure,3
+2024-10-20,athleisure,3
+2024-10-27,athleisure,3
+2024-11-03,athleisure,3
+2024-11-10,athleisure,3
+2024-11-17,athleisure,3
+2024-11-24,athleisure,4
+2024-12-01,athleisure,4
+2024-12-08,athleisure,4
+2024-12-15,athleisure,5
+2024-12-22,athleisure,3
+2024-12-29,athleisure,3
+2025-01-05,athleisure,3
+2025-01-12,athleisure,3
+2025-01-19,athleisure,3
+2025-01-26,athleisure,4
+2025-02-02,athleisure,3
+2025-02-09,athleisure,3
+2025-02-16,athleisure,4
+2025-02-23,athleisure,4
+2025-03-02,athleisure,3
+2025-03-09,athleisure,3
+2025-03-16,athleisure,4
+2025-03-23,athleisure,4
+2025-03-30,athleisure,4
+2025-04-06,athleisure,4
+2025-04-13,athleisure,4
+2025-04-20,athleisure,4
