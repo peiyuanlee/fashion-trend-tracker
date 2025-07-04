@@ -2,8 +2,10 @@ import streamlit as st
 import pandas as pd
 from sqlalchemy import create_engine, text
 import os
-
-import os
+from datetime import datetime
+import sys
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+from scripts.forecast import forecast_prophet
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))  
 DB_PATH = os.path.join(BASE_DIR, 'db', 'fashion_trends.db')
@@ -45,3 +47,13 @@ if growth is not None:
 else:
     col4.write("Not enough data for 30-day growth.")
 
+#forecasts for the next 5 years
+st.subheader("Forecast:")
+prophet_df = forecast_prophet(df, selected_trend, 1825)
+
+today = pd.to_datetime(datetime.today().date())
+future_forecast = prophet_df[prophet_df['ds'] > today]
+future_forecast = future_forecast.set_index('ds')['yhat']
+
+st.subheader("Future Forecast")
+st.line_chart(future_forecast.rename('Forecast'))

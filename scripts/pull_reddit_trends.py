@@ -1,9 +1,10 @@
 import praw
 import re
-from nltk.corpus import stopwords
-from collections import Counter
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
+from nltk.corpus import stopwords
+from sklearn.feature_extraction.text import CountVectorizer
+from collections import Counter
 
 load_dotenv()
 
@@ -14,33 +15,42 @@ reddit = praw.Reddit(
 )
 
 SUBREDDITS = ['femalefashionadvice', 'malefashionadvice', 'streetwear']
-LIMIT = 200 
+LIMIT = 200
 
-def pull_from_reddit():
+EXTRA_STOPWORDS = set([
+    'fashion', 'clothing', 'buy', 'shirt', 'shirts', 'pants', 'suit',
+    'fragrance', 'makeup', 'hair', 'fitness', 'help', 'need', 'today',
+    'quality', 'look', 'wear', 'fit', 'thread', 'thoughts', 'random',
+    'love', 'general', 'question', 'questions', 'january', 'february', 'march',
+    'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december', 
+    'recent', 'feedback', 'id', 'skincare', 'waywt', 'favorite', 'brand'
+])
+
+def pull_from_reddit_phrases():
     all_titles = []
+
     for sub in SUBREDDITS:
         subreddit = reddit.subreddit(sub)
-        posts = subreddit.new(limit = LIMIT)
+        posts = subreddit.new(limit=LIMIT)
         titles = [post.title.lower() for post in posts]
         all_titles.extend(titles)
 
-    words = []
-    for title in all_titles:
-        title_words = re.findall(r'\b\w+\b', title)
-        words.extend(title_words)
+    cleaned_titles = [re.sub(r'\d+', '', title) for title in all_titles]
 
-    stopword = stopwords.words('english')
-    stopword.extend(['fashion', 'clothing', 'buy', 'shirts', 'shirt',
-                       'fragrance', 'makeup', 'hair', 'fitness', 'dress', 'dresses', 'help', 'need', 'pants',
-                       'suit', 'today', 'quality', 'look', 'general', 'wear', 'questions', 'fit', 'thread', '2025', 'thoughts',
-                       'random', 'love', '18', '16'])
-    cleaned_words = [word for word in words if word not in stopword]
-    count = Counter((cleaned_words))
-    return count.most_common(50)
+    vectorizer = CountVectorizer(
+        stop_words=stopwords.words('english') + list(EXTRA_STOPWORDS),
+        ngram_range=(2, 3)
+    )
+    X = vectorizer.fit_transform(cleaned_titles)
+
+    phrase_counts = X.sum(axis=0)
+    phrases = [(phrase, int(phrase_counts[0, idx])) for phrase, idx in vectorizer.vocabulary_.items()]
+    sorted_phrases = sorted(phrases, key=lambda x: x[1], reverse=True)
+
+    return sorted_phrases[:50]
 
 if __name__ == "__main__":
-    keywords = pull_from_reddit()
-    print("Top keywords:")
-    for word, count in keywords:
-        print(f"{word}: {count}")
-
+    phrases = pull_from_reddit_phrases()
+    print("Top fashion phrases:")
+    for phrase, count in phrases:
+        print(f"{phrase}: {count}")

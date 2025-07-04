@@ -27,15 +27,16 @@ def save_keyword_popularity(keyword_list):
         print(df_to_save.head())
         df_to_save.to_sql('trends', con=engine, if_exists='append', index=False)
 
-file_path = 'data/trends.csv'
+file_path = 'data/trenads.csv'
 if os.path.exists(file_path):
-    save_keyword_popularity(['y2k fashion', 'coquette', 'vintage clothing'])
+    print('hi')
+    save_keyword_popularity(['boho', 'grunge', 'vintage', 'y2k', 'streetwear'])
 else:
-    keywords = ['quiet luxury', 'grunge', 'office siren', 'y2k', 'athleisure']
+    keywords = ['boho', 'grunge', 'vintage', 'y2k', 'streetwear']
     pytrends.build_payload(keywords, cat=0, timeframe='today 5-y', geo='', gprop='')
 
     df = pytrends.interest_over_time()
     df = df.reset_index()
     df = df.drop(columns=['isPartial'])
-    df = pd.melt(df, id_vars = ['date'], value_vars= ['quiet luxury', 'grunge', 'y2k', 'office siren', 'athleisure'], value_name= 'popularity')
+    df = pd.melt(df, id_vars = ['date'], value_vars= ['boho', 'grunge', 'y2k', 'vintage', 'streetwear'], value_name= 'popularity')
     df.to_csv('data/trends.csv', index=False)
