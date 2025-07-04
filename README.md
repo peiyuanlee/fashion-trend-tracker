@@ -2,7 +2,7 @@
 An interactive app that tracks, analyzes, and forecasts emerging fashion trends using data from Google Trends and Reddit. Built with Streamlit, SQLite, and time series forecasting model Prophet.
 
 ## Demo
-<img src="https://github.com/peiyuanlee/fashion-trend-tracker/demo.png" alt="Dashboard Screenshot" width="700"/>
+<img src="img/demo.png" alt="Dashboard Screenshot" width="700"/>
 
 ## Features
 
